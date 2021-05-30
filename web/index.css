@@ -1,0 +1,603 @@
+h1{
+	font-size: 8vw;
+	font-weight: bold;
+}
+p{
+	font-size: 1.2vw;
+}
+body { 
+	max-width: 1080px; 
+	margin: 0 auto ; 
+	float: left ; 
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+  padding-top: 0%;
+  padding: 0px 0px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding-top: 0%;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+ul {
+ display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  background-attachment: scroll;
+}
+
+li {
+  float: right;
+  margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  padding: 0px 20px;
+}
+
+li a {
+  transform: translate(0%, -100%);
+  font-family: Arial;
+  font-size: 25px;
+  display: block;
+  color: #00318B;
+  text-align: center;
+  padding: 20px 17px;
+  text-decoration: none;
+  margin-right:15px;
+  margin-top:70px;
+}
+li a:hover {
+  background-color: pink;
+
+}
+.mediaViewInfo {
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: calibri;
+}
+:root {
+	--web-view-ids: index;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#index {
+	
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	font-family: calibri;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: index;
+	--web-view-id: index;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+	--web-page-font: calibri;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_12 {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_12 {
+    top: 7%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+#Group_15 {
+	position: fixed;
+	width: 889.232px;
+	height: 789.223px;
+	left: 2%;
+	top: 30%;
+	overflow: visible;
+}
+#Vaccine {
+	left: 3.993px;
+	top: 130.813px;
+	position: absolute;
+	overflow: visible;
+	width: 387px;
+	white-space: nowrap;
+	line-height: 147.10032653808594px;
+	margin-top: -12.25836181640625px;
+	text-align: left;
+	font-family: Calibri-Bold, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 122.58360290527344px;
+	color: rgba(151,151,151,1);
+}
+#Coronavirus {
+	left: 2.922px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 611px;
+	white-space: nowrap;
+	line-height: 147.10032653808594px;
+	margin-top: -12.25836181640625px;
+	text-align: left;
+	font-family: Calibri-Bold, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 122.58360290527344px;
+	color: rgba(0,49,139,1);
+}
+#To_understand_how_COVID-19_vac {
+	left: 0px;
+	top: 274.574px;
+	position: absolute;
+	overflow: visible;
+	max-width: 80%;
+	height: 514.6483154296875px;
+	line-height: 33.51031494140625px;
+	margin-top: -2.792527198791504px;
+	text-align: left;
+	font-family: Calibri-Light, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.925260543823242px;
+	color: rgba(0,0,0,1);
+}
+.container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+}
+
+#Youtube {
+	left: 0px;
+	top: -9%;
+	position: relative;
+	overflow: visible;
+	width: 420px;
+	height: 514.6483154296875px;
+	line-height: 33.51031494140625px;
+	margin-left: 102%;
+	text-align: right;
+	font-family: Calibri-Light, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.925260543823242px;
+	color: rgba(0,0,0,1);
+}
+
+#Rectangle_13 {
+	fill: rgba(0,137,217,1);
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 74.688px;
+	height: 4.268px;
+	left: 3.216px;
+	top: 46.024px;
+}
+/* For mobile phones: */
+[class*="col-"] {
+  width: 100%;
+}
+ .responsive-iframe {
+  position: fixed;
+  top: 32%;
+  left: 52%;
+  bottom: 0;
+  right: 0;
+  width: 45%;
+  height: 50%;
+  border: none;
+}
+
+@media only screen and (max-width:800px) {
+  /******************************************************    For tablets:   ********************************************************/
+li{
+float:left;
+
+}
+#navbar {
+    float:left;
+    position: absolute;
+    
+}
+h1{
+	font-size: 14vw;
+	font-weight: bold;
+}
+p{  
+	padding-top:12px;
+	font-size: 3vw;
+}
+body { 
+	max-width: 1080px; 
+	margin: 0 auto ; 
+	float: left ; 
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+  #index {
+	position: absolute;
+		width: 800px;
+		height: 1608px;
+		background-color: rgba(255,255,255,1);
+		overflow: hidden;
+		--web-view-name: Artboard – 1;
+		--web-view-id: Artboard__1;
+		--web-scale-to-fit: true;
+		--web-scale-to-fit-type: fit;
+		--web-scale-on-resize: true;
+		--web-enable-deep-linking: true;
+	--web-page-font: calibri;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_12 {
+	position: absolute;
+		width: 1920px;
+		height: 1080px;
+		left: -1120px;
+		top: 528px;
+		overflow: visible;
+}
+#Rectangle_12 {
+    top: 7%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Group_15 {
+	position: absolute;
+	width: 600.067px;
+	height: 688.625px;
+	left: 4%;
+	top: 103px;
+	overflow: visible;
+}
+#Vaccine {
+	left: 3.993px;
+	top: 130.813px;
+	position: absolute;
+	overflow: visible;
+	width: 387px;
+	white-space: nowrap;
+	line-height: 147.10032653808594px;
+	margin-top: -12.25836181640625px;
+	text-align: left;
+	font-family: Calibri-Bold, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 122.58360290527344px;
+	color: rgba(151,151,151,1);
+}
+#Coronavirus {
+	left: 2.922px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 611px;
+	white-space: nowrap;
+	line-height: 147.10032653808594px;
+	margin-top: -12.25836181640625px;
+	text-align: left;
+	font-family: Calibri-Bold, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 122.58360290527344px;
+	color: rgba(0,49,139,1);
+}
+#To_understand_how_COVID-19_vac {
+	left: 0px;
+		top: 248.007px;
+		position: absolute;
+		overflow: visible;
+		max-width: 440px;
+		height: 440.6184387207031px;
+		line-height: 33.51031494140625px;
+		margin-top: -2.792527198791504px;
+		text-align: left;
+		font-family: Calibri;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 27.925260543823242px;
+		color: rgba(0,0,0,1);
+}
+#Youtube {
+	padding-top: 100%; /* 1:1 Aspect Ratio */
+	left: -18px;
+	top: 91%;
+	position: relative;
+	overflow: visible;
+	width: 650px;
+	height: 300px;
+	line-height: 33.51031494140625px;
+	margin-left: 0%;
+	text-align: right;
+	font-family: Calibri-Light, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.925260543823242px;
+	color: rgba(0,0,0,1);
+}
+#ABOUT {
+		left: 664.379px;
+		top: 75.891px;
+		position: absolute;
+		overflow: visible;
+		width: 73px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: about.html;
+		cursor: pointer;
+		line-height: 23px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: PTSans-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,49,139,1);
+		letter-spacing: 1px;
+	}
+	#FAQS {
+		left: 213.456px;
+		top: 75.891px;
+		position: absolute;
+		overflow: visible;
+		width: 54px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: faqs.html;
+		cursor: pointer;
+		line-height: 23px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: PTSans-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,49,139,1);
+		letter-spacing: 1px;
+	}
+	#FORUM {
+		left: 347.273px;
+		top: 75.891px;
+		position: absolute;
+		overflow: visible;
+		width: 78px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: forum.html;
+		cursor: pointer;
+		line-height: 23px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: PTSans-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,49,139,1);
+		letter-spacing: 1px;
+	}
+	#NEWS {
+		left: 504.843px;
+		top: 75.891px;
+		position: absolute;
+		overflow: visible;
+		width: 61px;
+		white-space: nowrap;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: news.html;
+		cursor: pointer;
+		line-height: 23px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: PTSans-Regular;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,49,139,1);
+		letter-spacing: 1px;
+	}
+#Group_16 {
+		position: absolute;
+		width: 63.869px;
+		height: 41.232px;
+		left: 61.618px;
+		top: 75.891px;
+		overflow: visible;
+		--web-animation: fadein 0.3s ease-out;
+		--web-action-type: page;
+		--web-action-target: index.html;
+		cursor: pointer;
+	}
+	#HOME {
+		left: 0px;
+		top: 0px;
+		position: absolute;
+		overflow: visible;
+		width: 64px;
+		white-space: nowrap;
+		line-height: 23px;
+		margin-top: -1.5px;
+		text-align: left;
+		font-family: PTSans-Bold;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 20px;
+		color: rgba(0,137,217,1);
+		letter-spacing: 1px;
+	}
+#Rectangle_13 {
+	fill: rgba(0,137,217,1);
+}
+.Rectangle_13 {
+	position: absolute;
+	overflow: visible;
+	width: 74.688px;
+	height: 4.268px;
+	left: 3.216px;
+	top: 46.024px;
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+li{
+float:left;
+ padding: 0px 5px;
+
+}
+#navbar {
+    float:left;
+    position: absolute;
+    padding: 0px 5px;
+}
+h1{
+	font-size: 29px;
+	font-weight: bold;
+	
+}
+p{  
+	padding-top:12px;
+	font-size: 3vw;
+}
+body { 
+	max-width: 1080px; 
+	margin: 0 auto ; 
+	float: left ; 
+}
+.responsive-iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+#Vaccine {
+	left: 3.993px;
+	top: 130.813px;
+	position: absolute;
+	overflow: visible;
+	width: 387px;
+	white-space: nowrap;
+	line-height: 147.10032653808594px;
+	margin-top: 0;
+	text-align: left;
+	font-family: Calibri-Bold, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 122.58360290527344px;
+	color: rgba(151,151,151,1);
+}
+#Coronavirus {
+	left: 2.922px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 611px;
+	white-space: nowrap;
+	line-height: 147.10032653808594px;
+	margin-top: 0;
+	text-align: left;
+	font-family: Calibri-Bold, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 122.58360290527344px;
+	color: rgba(0,49,139,1);
+}
+#To_understand_how_COVID-19_vac {
+	left: 0px;
+	top: 274.574px;
+	position: absolute;
+	overflow: visible;
+	max-width: 80%;
+	height: 514.6483154296875px;
+	line-height: 33.51031494140625px;
+	margin-top: -2.792527198791504px;
+	text-align: left;
+	font-family: Calibri-Light, calibri;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.925260543823242px;
+	color: rgba(0,0,0,1);
+}

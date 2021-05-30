@@ -1,0 +1,267 @@
+span{
+	font-family: calibri;
+}
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+  padding-top: 0%;
+  padding: 0px 0px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding-top: 0%;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+ul {
+ display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  background-attachment: scroll;
+}
+
+li {
+  float: right;
+  margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  padding: 0px 20px;
+}
+
+li a {
+  transform: translate(0%, -100%);
+  font-family: Arial;
+  font-size: 25px;
+  display: block;
+  color: #00318B;
+  text-align: center;
+  padding: 20px 17px;
+  text-decoration: none;
+  margin-right:15px;
+  margin-top:70px;
+}
+li a:hover {
+  background-color: pink;
+
+}
+.Inside-BG {
+  position: fixed;
+  top: -10px;
+
+}
+.mediaViewInfo {
+	--web-view-name: about;
+	--web-view-id: about;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width, height;
+	--web-scale-on-resize: false;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: about;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#about {
+	position: absolute;
+
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: about;
+	--web-view-id: about;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_1 {
+	top: 7%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_1 {
+	top: 7%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+
+#Rectangle_2 {
+	fill: rgba(0,137,217,1);
+}
+.Rectangle_2 {
+	position: absolute;
+	overflow: visible;
+	width: 74.688px;
+	height: 4.268px;
+	left: 3.216px;
+	top: 46.024px;
+}
+#Group_4 {
+	position: absolute;
+	width: 334.546px;
+	height: 81.133px;
+	left: 535.18px;
+	top: 778.293px;
+	overflow: visible;
+}
+#Group_3 {
+	position: absolute;
+	width: 334.546px;
+	height: 81.133px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#Path_1 {
+	fill: rgba(255,235,221,1);
+}
+.Path_1 {
+	overflow: visible;
+	position: absolute;
+	width: 324.695px;
+	height: 69.749px;
+	left: 0px;
+	top: 11.384px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Path_2 {
+	fill: rgba(0,0,0,0);
+	stroke: rgba(61,61,66,1);
+	stroke-width: 1.8182100057601929px;
+	stroke-linejoin: miter;
+	stroke-linecap: butt;
+	stroke-miterlimit: 10;
+	shape-rendering: auto;
+}
+.Path_2 {
+	overflow: visible;
+	position: absolute;
+	width: 326.512px;
+	height: 71.567px;
+	left: 9.852px;
+	top: 0px;
+	transform: matrix(1,0,0,1,0,0);
+}
+#Check_Portfolio {
+	left: 84.2px;
+	top: 17.623px;
+	position: absolute;
+	overflow: visible;
+	width: 177px;
+	white-space: nowrap;
+	line-height: 43.62989044189453px;
+	margin-top: -9.69552993774414px;
+	text-align: center;
+	font-family: Poppins-SemiBold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 24.23883056640625px;
+	color: rgba(61,61,66,1);
+	letter-spacing: 0.4px;
+}
+#Group_5 {
+	position: absolute;
+	width: 570.286px;
+	height: 322.858px;
+	left: 353.488px;
+	top: 434.7px;
+	overflow: visible;
+}
+#MY_NAME_IS_GEEVEE_AND_I_CREATE {
+	left: 0px;
+	top: 191.713px;
+	position: absolute;
+	overflow: visible;
+	width: 571.286px;
+	height: 131.14471435546875px;
+	line-height: 24.942729949951172px;
+	margin-top: -3.971364974975586px;
+	text-align: left;
+	font-family: MyriadPro-Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 17px;
+	color: rgba(61,61,66,1);
+	letter-spacing: 0.4px;
+}
+#About_me {
+	left: 0.173px;
+	top: 50.912px;
+	position: absolute;
+	overflow: visible;
+	width: 485px;
+	white-space: nowrap;
+	line-height: 120.32270812988281px;
+	margin-top: -3.627094268798828px;
+	text-align: left;
+	font-family: ArialMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 113.06851959228516px;
+	color: rgba(61,61,66,1);
+}
+#Geevee_Jay_Gellego_Selibio {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 561px;
+	white-space: nowrap;
+	line-height: 81.69505310058594px;
+	margin-top: -18.154460906982422px;
+	text-align: left;
+	font-family: ArialMT;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 45.386131286621094px;
+	color: rgba(61,61,66,1);
+}

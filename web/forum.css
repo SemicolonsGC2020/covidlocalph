@@ -1,0 +1,154 @@
+span{
+	font-family: calibri;
+}
+.discord{
+	float:left;
+	padding-right:110px;
+}
+.tracker{
+	padding-right:110px;
+	float:left;
+	width:860px;
+
+}
+.Inside-BG {
+  float: left;
+  position: FIXED;
+  color: white;
+  top: 30%;
+  left: 5%;
+  width: 100%;
+  max-height: 12%;
+}
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+  padding-top: 0%;
+  padding: 0px 0px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding-top: 0%;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+ul {
+ display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  background-attachment: scroll;
+}
+
+li {
+  float: right;
+  margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  padding: 0px 20px;
+}
+
+li a {
+  transform: translate(0%, -100%);
+  font-family: Arial;
+  font-size: 25px;
+  display: block;
+  color: #00318B;
+  text-align: center;
+  padding: 20px 17px;
+  text-decoration: none;
+  margin-right:15px;
+  margin-top:70px;
+}
+li a:hover {
+  background-color: pink;
+
+}
+
+
+
+.mediaViewInfo {
+	--web-view-name: forum;
+	--web-view-id: forum;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: forum;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#forum {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: forum;
+	--web-view-id: forum;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_10 {
+	position: absolute;
+	width: 1920.24px;
+	height: 1080px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_9 {
+	top: 7%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+
+#Rectangle_10 {
+	fill: rgba(0,137,217,1);
+}
+.Rectangle_10 {
+	position: absolute;
+	overflow: visible;
+	width: 74.688px;
+	height: 4.268px;
+	left: 3.216px;
+	top: 46.024px;
+}

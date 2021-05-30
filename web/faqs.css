@@ -1,0 +1,287 @@
+span, p{
+  color:black;
+  font-family: calibri;
+}
+#navbar {
+  overflow: hidden;
+  background-color: transparent;
+  padding-top: 0%;
+  padding: 0px 0px;
+  transition: 0.4s;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 99;
+}
+#navbar a {
+  float: left;
+  color: black;
+  text-align: center;
+  padding-top: 0%;
+  padding: 0px;
+  text-decoration: none;
+  font-size: 18px; 
+  line-height: 25px;
+  border-radius: 4px;
+}
+ul {
+ display: block;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  background-attachment: scroll;
+}
+
+li {
+  float: right;
+  margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+  padding: 0px 20px;
+}
+
+li a {
+  transform: translate(0%, -100%);
+  font-family: Arial;
+  font-size: 25px;
+  display: block;
+  color: #00318B;
+  text-align: center;
+  padding: 20px 17px;
+  text-decoration: none;
+  margin-right:15px;
+  margin-top:70px;
+}
+li a:hover {
+  background-color: pink;
+
+}
+.Inside-BG {
+  position: fixed;
+  color: white;
+  top: 30%;
+  left: 3%;
+  width: 850px;
+  max-height:460px;
+  overflow: scroll;
+}
+.accordion {
+  background-color: #fff;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+  font-weight: bold;
+}
+
+.active, .accordion:hover {
+  background-color: #pink;
+  font-weight: bold;
+}
+
+.accordion:after {
+  content: '\002B';
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+
+
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+}
+.mediaViewInfo {
+	--web-view-name: faqs;
+	--web-view-id: faqs;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+:root {
+	--web-view-ids: faqs;
+}
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	border: none;
+}
+#faqs {
+	position: absolute;
+	width: 1920px;
+	height: 1080px;
+	background-color: rgba(255,255,255,1);
+	overflow: hidden;
+	--web-view-name: faqs;
+	--web-view-id: faqs;
+	--web-scale-to-fit: true;
+	--web-scale-to-fit-type: width;
+	--web-scale-on-resize: true;
+	--web-enable-deep-linking: true;
+}
+@keyframes fadein {
+
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+
+}
+#Group_8 {
+	position: absolute;
+	width: 1920px;
+	height: 1080.24px;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#Rectangle_6 {
+	top: 7%;
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    position: fixed;
+	left: 0px;
+	top: 0px;
+	overflow: visible;
+}
+#ABOUT_bh {
+	left: 1738.829px;
+	top: 78.891px;
+	position: absolute;
+	overflow: visible;
+	width: 100px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: about.html;
+	cursor: pointer;
+	line-height: 33.09553527832031px;
+	margin-top: -2.757962226867676px;
+	text-align: left;
+	font-family: PTSans-Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.57961082458496px;
+	color: rgba(0,49,139,1);
+	letter-spacing: 1px;
+}
+#FAQS_bi {
+	left: 1188.82px;
+	top: 78.891px;
+	position: absolute;
+	overflow: visible;
+	width: 74px;
+	white-space: nowrap;
+	line-height: 33.09553527832031px;
+	margin-top: -2.757962226867676px;
+	text-align: left;
+	font-family: PTSans-Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.57961082458496px;
+	color: rgba(0,49,139,1);
+	letter-spacing: 1px;
+}
+#FORUM_bj {
+	left: 1352.043px;
+	top: 78.891px;
+	position: absolute;
+	overflow: visible;
+	width: 107px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: forum.html;
+	cursor: pointer;
+	line-height: 33.09553527832031px;
+	margin-top: -2.757962226867676px;
+	text-align: left;
+	font-family: PTSans-Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.57961082458496px;
+	color: rgba(0,49,139,1);
+	letter-spacing: 1px;
+}
+#NEWS_bk {
+	left: 1544.237px;
+	top: 78.891px;
+	position: absolute;
+	overflow: visible;
+	width: 84px;
+	white-space: nowrap;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: news.html;
+	cursor: pointer;
+	line-height: 33.09553527832031px;
+	margin-top: -2.757962226867676px;
+	text-align: left;
+	font-family: PTSans-Regular;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.57961082458496px;
+	color: rgba(0,49,139,1);
+	letter-spacing: 1px;
+}
+#Group_9 {
+	position: absolute;
+	width: 87px;
+	height: 50.292px;
+	left: 1003.618px;
+	top: 78.891px;
+	overflow: visible;
+	--web-animation: fadein 0.3s ease-out;
+	--web-action-type: page;
+	--web-action-target: index.html;
+	cursor: pointer;
+}
+#HOME_bm {
+	left: 0px;
+	top: 0px;
+	position: absolute;
+	overflow: visible;
+	width: 88px;
+	white-space: nowrap;
+	line-height: 33.09553527832031px;
+	margin-top: -2.757962226867676px;
+	text-align: left;
+	font-family: PTSans-Bold;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 27.57961082458496px;
+	color: rgba(0,137,217,1);
+	letter-spacing: 1px;
+}
+#Rectangle_7 {
+	fill: rgba(0,137,217,1);
+}
+.Rectangle_7 {
+	position: absolute;
+	overflow: visible;
+	width: 74.688px;
+	height: 4.268px;
+	left: 3.216px;
+	top: 46.024px;
+}
