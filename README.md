@@ -1,5 +1,5 @@
-# covidlocalph.ml
-Visit Website  www.covidlocalph.ml
+# covaclocalph.ml
+Visit Website  www.covaclocalph.ml
 
 This website is tool to help the problem about vaccine hesitance in Philippines.<br>
 Setup: extract files and run index.html<br>
