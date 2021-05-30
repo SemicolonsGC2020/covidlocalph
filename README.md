@@ -1,7 +1,8 @@
 # covidlocalph
 website
 
-THIS SIMPLE WEBSITE HELP PEOPLE TO UNDERSTAND THE COVID VACCCINE. IM PRETTY SURE YOU SAW THE CONTENTS, BUT I 
-FIGURED IT WAS WORTH TO SHARE THIS SITE TO OTHERS. YOU KNOW. IF THEY ARE IMPORTANT TO YOU THIS MIGHT SAVE THEM.
+This website is important tool to help the problem about vaccine hesitance.
+![image](https://user-images.githubusercontent.com/72630227/120100766-173adc80-c175-11eb-9595-8de7d682cc36.png)
+
 
 To fix: Responsive design
